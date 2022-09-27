@@ -28,3 +28,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Project 2
+
+- Clone this repository
+- Create a page with your name as URL. e.g. localhost:3000/jilly
+- Create a todo app on your new page
+
+Requirements for todo app:
+
+- An input to make a new todo
+- A submit button to submit todo
+- List of submitted todos
+- A submitted todo should have a checkbox to complete/uncomplete a todo
+- Submitted todos could be filtered by "All", "Active" and "Completed"
