@@ -37,6 +37,9 @@ Requirements for todo app:
 - List of submitted todos
 - A submitted todo should have a checkbox to complete/uncomplete a todo
 - Submitted todos could be filtered by "All", "Active" and "Completed"
+- more or less UI
+![UI](https://imgix3.ruangguru.com/assets/user_uploads/pp/pp_iymbx8_8312.png)
+
 
 
 ## Deploy on Vercel
