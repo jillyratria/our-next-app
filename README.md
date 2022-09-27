@@ -41,6 +41,7 @@ Requirements for todo app:
 ![UI](https://imgix3.ruangguru.com/assets/user_uploads/pp/pp_iymbx8_8312.png)
 
 
+NOTE: You can use vanilla css or chakra-ui for styling.
 
 ## Deploy on Vercel
 
