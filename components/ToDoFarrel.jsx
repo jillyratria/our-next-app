@@ -34,23 +34,23 @@ export function ComponentFilterButton(props) {
   );
 }
 
-export function ComponentForm(props) {
-  const [state, setState] = useState({
+export function ComponentToDoForm(props) {
+  const [formState, setFormState] = useState({
     task: "",
     priority: "",
   });
 
   function handleChange(e) {
-    setState({
-      ...state,
+    setFormState({
+      ...formState,
       [e.target.name]: e.target.value,
     });
   }
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.addTask(state);
-    setState({
+    props.addTask(formState);
+    setFormState({
       task: "",
       priority: "",
     });
@@ -65,7 +65,7 @@ export function ComponentForm(props) {
           placeholder="Add Task"
           type="text"
           name="task"
-          value={state.task}
+          value={formState.task}
           onChange={handleChange}
         />
         <Select
@@ -73,7 +73,7 @@ export function ComponentForm(props) {
           variant="outline"
           placeholder="Priority"
           name="priority"
-          value={state.priority}
+          value={formState.priority}
           onChange={handleChange}
         >
           <option value="Low">Low</option>

@@ -1,6 +1,6 @@
 import {
   ComponentFilterButton,
-  ComponentForm,
+  ComponentToDoForm,
   ComponentListToDo
 } from "../components/ToDoFarrel";
 import { ChakraProvider, Box, Flex, Text } from "@chakra-ui/react";
@@ -39,7 +39,7 @@ export default function FarrelPage(props) {
         <Text fontSize='xl' paddingBottom="1rem">{headingText}</Text>
         <Box display="flex" flexWrap="nowrap" gap="1rem">
           <ComponentFilterButton></ComponentFilterButton>
-          <ComponentForm addTask={addTask}></ComponentForm>
+          <ComponentToDoForm addTask={addTask}></ComponentToDoForm>
         </Box>
 
         {taskList}
